@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add</button>
+        </div>
+        
+        <div id="taskList-container">
+            <ul id="taskList"></ul>
+            <p id="emptyMessage" class="empty-message">Your to-do list is empty. Add some tasks!</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
